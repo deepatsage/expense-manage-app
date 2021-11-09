@@ -13,7 +13,7 @@ const NewExpense = (props) => {
   return (
     <div className="new-expense">
       {toggleForm && <ExpenseForm onSaveExpenseForm={onSaveExpenseForm} isEditingForm={isEditingForm}></ExpenseForm>}
-      {!toggleForm && <button onClick={() => { isEditingForm(true) }}>Add New Button</button>}
+      {!toggleForm && <button onClick={() => { isEditingForm(true) }}>Add New Expense</button>}
 
     </div>
   );
